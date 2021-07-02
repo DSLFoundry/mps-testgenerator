@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/com.dslfoundry.test.generator/com.dslfoundry.test.generator.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.dslfoundry.test.generator.runtime/com.dslfoundry.test.generator.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.dslfoundry.test.generator.test/com.dslfoundry.test.generator.test.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
