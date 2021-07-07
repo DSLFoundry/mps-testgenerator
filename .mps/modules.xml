@@ -5,6 +5,10 @@
       <modulePath path="$PROJECT_DIR$/languages/com.dslfoundry.test.generator/com.dslfoundry.test.generator.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/com.dslfoundry.test.generator.runtime/com.dslfoundry.test.generator.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/com.dslfoundry.test.generator.test/com.dslfoundry.test.generator.test.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.dslfoundry.testgenerator.build/com.dslfoundry.testgenerator.build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.dslfoundry.testgenerator.buildAllScripts/com.dslfoundry.testgenerator.buildAllScripts.msd" folder="" />
+      <modulePath path="${testsupport.home}/languages/com.dslfoundry.testsupport/com.dslfoundry.testsupport.mpl" folder="" />
+      <modulePath path="${testsupport.home}/solutions/com.dslfoundry.testsupport.build/com.dslfoundry.testsupport.build.msd" folder="" />
     </projectModules>
   </component>
 </project>
