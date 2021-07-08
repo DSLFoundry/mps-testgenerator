@@ -46,8 +46,8 @@ repositories {
 	maven {
 		url	"https://maven.pkg.github.com/DSLFoundry/mps-testsupport"
       credentials {
-        username = System.getenv("MAVEN_USERNAME")
-        password = System.getenv("MAVEN_PASSWORD")
+                username = project.findProperty("gpr.user") ?: System.getenv("USERNAME")
+                password = project.findProperty("gpr.key") ?: System.getenv("TOKEN")
       }
 	}
 
