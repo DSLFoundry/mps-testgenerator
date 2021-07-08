@@ -44,11 +44,11 @@ repositories {
         url "https://projects.itemis.de/nexus/content/repositories/mbeddr"
     }
 	maven {
-		url	"https://maven.pkg.github.com/DSLFoundry/mps-testsupport"
-		credentials {
-			username project.dslfoundryUsername
-			password project.dslfoundryPassword
-		}
+		url	"https://github.com/orgs/DSLFoundry/packages?repo_name=mps-testsupport"
+      credentials {
+        username = System.getenv("MAVEN_USERNAME")
+        password = System.getenv("MAVEN_PASSWORD")
+      }
 	}
 
     mavenCentral()
