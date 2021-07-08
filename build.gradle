@@ -45,10 +45,10 @@ repositories {
     }
 	maven {
 		url	"https://maven.pkg.github.com/DSLFoundry/mps-testsupport"
-		credentials {
-			username project.dslfoundryUsername
-			password project.dslfoundryPassword
-		}
+      credentials {
+        username = System.getenv("MAVEN_USERNAME")
+        password = System.getenv("MAVEN_PASSWORD")
+      }
 	}
 
     mavenCentral()
