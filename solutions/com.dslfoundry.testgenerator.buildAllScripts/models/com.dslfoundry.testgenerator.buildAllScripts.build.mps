@@ -234,7 +234,13 @@
       <property role="TrG5h" value="languageLibs" />
       <node concept="55IIr" id="4rV_RxWWQgR" role="398pKh">
         <node concept="2Ry0Ak" id="4rV_RxWWQgS" role="iGT6I">
-          <property role="2Ry0Am" value="dependencies" />
+          <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="5_PB5QRYoOO" role="2Ry0An">
+            <property role="2Ry0Am" value="build" />
+            <node concept="2Ry0Ak" id="5_PB5QRYoOT" role="2Ry0An">
+              <property role="2Ry0Am" value="dependencies" />
+            </node>
+          </node>
         </node>
       </node>
     </node>

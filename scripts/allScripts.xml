@@ -8,7 +8,7 @@
   <property name="artifacts.root" location="${testgenerator.home}/build/dependencies" />
   <property name="build" value="0000" />
   <property name="testgenerator.version" value="${build}" />
-  <property name="languageLibs" location="${basedir}/dependencies" />
+  <property name="languageLibs" location="${basedir}/../build/dependencies" />
   <property name="platform" location="${languageLibs}/com.mbeddr.platform" />
   <property name="artifacts.mps" location="${mps.home}" />
   <property name="artifacts.mpsBuild" location="${mps.home}" />
